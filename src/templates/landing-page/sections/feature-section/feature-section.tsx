@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Button } from '../ui/button'
+import { Button } from '../../../../components/ui/button'
 
 export const FeatureSection = () => {
   return (
@@ -50,6 +50,7 @@ export const FeatureSection = () => {
               <Image
                 src="/feature-section.svg"
                 alt="Features"
+                loading="eager"
                 width={440}
                 height={330}
                 className="object-contain w-full"
